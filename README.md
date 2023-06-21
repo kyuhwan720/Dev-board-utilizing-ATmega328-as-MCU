@@ -107,13 +107,13 @@ If you have more questions, send me a DM on Discord!
 ## Step 5: Programming (Bootloading)
 So you have a fully finished board on the outside but there's nothing inside, yet. Now is the time to grab your ATmega2560 and connect it to your PC or Mac's USB port. You now need to make some connections between ATmega2560 and ATmega328. Follow the following table to do so. Refer back to the schematic to see where the PINs are located.
 
-| ATmega2560    | ATmega328     |
-| ------------- |:-------------:|
-| 5V            | VCC (PIN 7)   |
-| GND           | GND (PIN 8)   |
-| Digital PIN 50| MISO (PIN 18) |
-| Digital PIN 51| MOSI (PIN 17) |
-| Digital PIN 52| SCK (PIN 19)  |
-| Digital PIN 53| RESET (PIN 1) |
+| ATmega2560   | ATmega328    |
+| ------------ |:------------:|
+|5V            | VCC (PIN 7)   |
+|GND           | GND (PIN 8)   |
+|Digital PIN 50| MISO (PIN 18) |
+|Digital PIN 51| MOSI (PIN 17) |
+|Digital PIN 52| SCK (PIN 19)  |
+|Digital PIN 53| RESET (PIN 1) |
 
 
