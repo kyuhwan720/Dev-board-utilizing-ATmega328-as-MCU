@@ -23,7 +23,7 @@ There will be Amazon links to obtain these materials.
 - [ ] 1 x ATmega2560
 - [ ] 1 x USB-A to USB-B Cable
 - [ ] 1 x PC or Mac with following programs
-  - bootload_flash.zip <- Download the folder with the same name in this repository
+  - bootload_flash <- Download the .zip file with the same name in this repository then unzip it.
   - Command Prompt or Terminal
 
 If you are going the second route of *soldering* then get everything mentioned above **except** the breadboard and instead buy these...
