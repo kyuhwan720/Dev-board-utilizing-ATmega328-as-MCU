@@ -4,8 +4,7 @@
 
 # Let's make a microcontroller!
 Hello! In this tutorial, I will be teaching you how to construct a fully functioning ATmega328 from scratch.
-There will be **2** methods of this and I will be showing you both ways.
-One way is by constructing a circuit on breadboard and the other is by soldering components on to a protoboard.
+There are two methods of this which is by constructing a circuit on breadboard or by soldering components on to a protoboard.
 Either methods will generate same or similar result so choose whichever one you prefer.
 
 ## Pre-Prerequisites
@@ -47,6 +46,17 @@ As you begin, notice how there is a half-circle on one side of the microcontroll
 ![plot](/chip.jpg)
 
 Grab the microcontroller chip and place it anywhere on the breadboard or protoboard. If you are building on a breadboard, push the microcontroller pins to the holes of the breadboard until you can't push any further. If you are building on a protoboard, push the pins through the holes then solder all of them. Be careful to not bend any pins.
+
+Here is the schematic. Feel free to come back to this schematic whenever you're confused.
+
+![plot](/schematic.jpg)
+
+## Step 2: Power
+Looking at the schematic, I have labeled PIN 7 and 8 as VCC and GND because that is the VCC and GND of ATmega328 microcontroller. 
+
+![plot](/pinmap.png)
+
+Connect these two pins via 0.1 µF Ceramic Capacitor then put two header pins after. Connect PIN 7 (VCC) to the power rail (+ Bus) and PIN 8 (GND) to the ground rail (- Bus).
 
 
 
