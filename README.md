@@ -63,6 +63,13 @@ This is how you will be able to power on the microcontroller.
 "VCC stands for **Voltage Common Collector** and is the supply voltage for the circuit. It is usually connected to the positive (+) terminal of the power supply and is used to provide power to the various components of the circuit. GND on the other hand is **Ground** and is a reference point for the circuit and is commonly used as a return path for current. It is usually connected to the negative (-) terminal of the power supply, and is considered to be at zero voltage potential."
 
 ## Step 3: Reset Switch
+As stated in the schematic, your PIN 1 (PC6) will be the reset switch. The ATmega can work without a reset button. Powering down the controller will reset it. In-circuit programmer will also reset the controller every time new firmware is loaded. But by having a dedicated reset switch, it is really easy to reset the microcontroller by push of a button. There are many reasons and here's top reasons why.
+
+1. The reset switch allows you to manually initiate a system reset, which is crucial during the initialization phase of a microcontroller-based circuit. When the reset button is pressed, the microcontroller starts executing the program from the beginning, ensuring a known and consistent state for your system.
+
+2. During the development and debugging process, a reset switch is particularly useful. It provides a quick and convenient way to reset the microcontroller and restart your program, allowing you to test different code sections or troubleshoot any issues you may encounter.
+
+3. In certain scenarios, your program may encounter errors or unexpected behavior that cause the microcontroller to become unresponsive or stuck. By incorporating a reset switch, you can easily reset the microcontroller to resolve such issues without the need for power cycling the entire circuit.
 
 
 
