@@ -12,17 +12,15 @@ Either methods will generate same or similar result so choose whichever one you 
 Before you begin, you should have some knowledge of [how to use a breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all) or [soldering](https://www.youtube.com/watch?v=oqV2xU1fee8) and reading schematics.
 
 ## Prerequisites / Materials
-You need these items in order to proceed with the construction process!
+You need these items in order to proceed with the construction and programming processes.
 There will be Amazon links to obtain these materials.
 
 - [ ] 1 x [Breadboard](https://a.co/d/gcQUHnz)
-- [ ] 2 x [0.1 µF 50V Ceramic Capacitor]()
 - [ ] 1 x [0.1 µF Ceramic Capacitor]()
-- [ ] 1 x 16MHz Quartz Crystal Clock
-- [ ] 1 x AVR ICSP Programming Adaptor
-- [ ] 1 x ATmega328 or ATmega328
-- [ ] 1 x Any color 5mm LED
-- [ ] 2 x 330Ω Resistors (Any resistor above 200Ω is fine)
+- [ ] 1 x 10kΩ Resistor
+- [ ] 1 x Push Button
+- [ ] 23 x Header Pins
+- [ ] 1 x ATmega328 or ATmega328P
 - [ ] 1 x ATmega2560
 - [ ] 1 x USB-A to USB-B Cable
 - [ ] 1 x PC or Mac with following programs
@@ -39,8 +37,16 @@ Phew, that was a long prerequisite :joy:. This will be an in-depth guide so *the
 
 So, why ATmega328? Well, I actually had to make this for a class and so I already know how to do everything and just wanted to pass down this knowledge. There is a full [article](https://www.electricaltechnology.org/2018/01/atmega-atmel-avr-microcontrollers.html) on what ATmega microcontrollers are capable of so you should read it ~~I didn't~~. It says on [ATmega328's Wikipedia](https://en.wikipedia.org/wiki/ATmega328) that "ATmega328 is commonly used in many projects and autonomous systems where a simple, low-powered, low-cost micro-controller is needed". But future BS aside, by being able to make and program a microcontroller, you will gain so much knowledge of how different components inside actually works. For example, you will be able to utilize its EEPROM or Electrically Erasable Programmable Read-Only Memory. EEPROM is often used to store configuration data for a microcontroller. This data could include things like the baud rate of the serial port, the IP address of the microcontroller, or the settings for a sensor. EEPROM is also sometimes used to store user data, such as a password or a list of contacts. See, you already learned something new about microcontrollers ~~hopefully~~.
 
+Also before I go any further, read this [article](https://www.hnhcart.com/blogs/microcontrollers/a-1#:~:text=DIFFERENCE%20BETWEEN%20ATMEGA328%2F328P,could%20be%20a%2060nm%20process.) on the difference between ATmega328 and 328P. They are essentially the same thing with minor tweaks so the construction process will be the same except programming part. **BE AWARE OF WHAT KIND OF MICROCONTROLLER YOU HAVE**
+
 Enough chit-chat, let's get down to business now.
 
 ## Step 1: The Setup
+To begin, notice the notch that indicates the direction of the chip — and the dot that indicates Pin 1. All pins that follow suit are in regular numerical order.
+
+
+
+Grab the microcontroller chip and place it anywhere on the breadboard or protoboard. If you are building on a breadboard, push the microcontroller pins to the holes of the breadboard until you can't push any further. If you are building on a protoboard, push the pins through the holes then solder all of them.
+
 
 
