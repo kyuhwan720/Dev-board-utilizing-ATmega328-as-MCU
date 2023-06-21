@@ -89,6 +89,9 @@ Here are some common types of ports found in microcontrollers:
 
 You can see which pins correspond to different types of ports on the schematic above. Now, place header pins anywhere on the breadboard/protoboard and connect the pins via wires. Now you are done with the construction and all there is left is programming the board to give it life!
 
+As an example, here is my final product. Sorry it's a bit messy.
+![plot](/finalproduct.png)
+
 ## Step 4-1: Quick Q&A
 No, don't worry you are done with the construction process. I just wanted to have this moment to look back at some concerns you might've had during it. 
 
@@ -115,5 +118,8 @@ So you have a fully finished board on the outside but there's nothing inside, ye
 |Digital PIN 51| MOSI (PIN 17) |
 |Digital PIN 52| SCK (PIN 19)  |
 |Digital PIN 53| RESET (PIN 1) |
+
+It should look something like this
+![plot](/bootload.png)
 
 
