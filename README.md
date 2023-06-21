@@ -109,7 +109,9 @@ Also before I go any further, read this [article](https://www.hnhcart.com/blogs/
 
 If you have more questions, send me a DM on Discord!
 
+<p align="center">
 [![Discord Presence](https://lanyard.cnrad.dev/api/268325031342243843)](https://discord.com/users/268325031342243843)
+</p>
 
 ## Step 5: Programming (Bootloading)
 So you have a fully finished board on the outside but there's nothing inside, yet. Now is the time to grab your ATmega2560 and connect it to your PC or Mac's USB port. You now need to make some connections between ATmega2560 and ATmega328. Follow the following table to do so. Refer back to the schematic to see where the PINs are located.
