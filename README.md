@@ -101,7 +101,7 @@ But this tutorial isn't to make a standalone microcontroller. As stated above, w
 For you Tl;dr people, you don't need a crystal oscillator at least for this tutorial. But you can add it if you eventually want to make a standalone microcontroller that has faster clock speed without using another Arduino board.
 
 If you have more questions, send me a DM on Discord
-[![Discord Presence](https://lanyard.cnrad.dev/api/:id)](https://discord.com/users/268325031342243843)
+[![Discord Presence](https://lanyard.cnrad.dev/api/268325031342243843)](https://discord.com/users/268325031342243843)
 
 ## Step 5: Programming (
 
