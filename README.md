@@ -26,8 +26,8 @@ There will be Amazon links to obtain these materials.
 - [ ] 1 x ATmega2560
 - [ ] 1 x USB-A to USB-B Cable
 - [ ] 1 x PC or Mac with following programs
-   - [Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
-   - Purdue Arduino MEGA Uploader <- Download the folder with the same name in this repository
+    - [Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
+  - Purdue Arduino MEGA Uploader <- Download the folder with the same name in this repository
 
 If you are going the second route of *soldering* then get everything mentioned above **except** the breadboard and instead buy these...
 
