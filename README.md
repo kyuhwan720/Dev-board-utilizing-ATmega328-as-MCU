@@ -27,7 +27,7 @@ There is going to be Amazon links to these materials.
 - [ ] 1 x USB-A to USB-B Cable
 - [ ] 1 x PC or Mac that has [Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
 
-If you are going the second route of *soldering* then **do not buy** the breadboard and instead buy these...
+If you are going the second route of *soldering* then get everything mentioned above **except** the breadboard and instead buy these...
 
 - [ ] 1 x Protoboard
-- [ ] 1 x [Soldering Kit](https://www.amazon.com/Soldering-Interchangeable-Adjustable-Temperature-Enthusiast/dp/B087767KNW/ref=sr_1_6?keywords=soldering%2Bkit&qid=1687306680&sr=8-6&th=1) This has all you need!
+- [ ] 1 x [Soldering Kit](https://www.amazon.com/Soldering-Interchangeable-Adjustable-Temperature-Enthusiast/dp/B087767KNW/ref=sr_1_6?keywords=soldering%2Bkit&qid=1687306680&sr=8-6&th=1) *This has all you need!*
