@@ -22,8 +22,7 @@ There will be Amazon links to obtain these materials.
 - [ ] 1 x ATmega328
 - [ ] 1 x ATmega2560
 - [ ] 1 x USB-A to USB-B Cable
-- [ ] 1 x PC or Mac with following programs
-  - [Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
+- [ ] 1 x PC or Mac with following program
   - Purdue Arduino MEGA Uploader <- Download the folder with the same name in this repository
 
 If you are going the second route of *soldering* then get everything mentioned above **except** the breadboard and instead buy these...
@@ -105,17 +104,19 @@ But this tutorial isn't to make a standalone microcontroller. As stated above, w
 
 For you Tl;dr people, you don't need a crystal oscillator at least for this tutorial. But you can add it if you eventually want to make a standalone microcontroller that has faster clock speed without using another Arduino board.
 
+Another question is why I didn't use Arduino IDE. There are other tutorials online that advocates Arduino IDE by opening ArduinoISP to bootload the ATmega328. I personally don't like this method because one big reason: It didn't work for me. The aforementioned tutorials are all based on the older versions of Arduino IDE so there are some changes in the new versions available today. The ArduinoISP stayed the same but for some reason, the way this IDE interacts with the board changed and it does not work. My friends can all attest that bootloading through Arduino IDE did not work for them. If you had luck and got it to work, then good for you! But I personally don't like this method and will teach you how to flash the microcontroller using command prompt or terminal. 
+
 Also before I go any further, read this [article](https://www.hnhcart.com/blogs/microcontrollers/a-1#:~:text=DIFFERENCE%20BETWEEN%20ATMEGA328%2F328P,could%20be%20a%2060nm%20process.) on the difference between ATmega328 and 328P. They are essentially the same thing with minor tweaks so the construction process will be the same except programming part. **BE AWARE OF WHAT KIND OF MICROCONTROLLER YOU HAVE.**
 
 If you have more questions, send me a DM on Discord!
 
-<p align="center">
+<div align="center">
   
   [![Discord Presence](https://lanyard.cnrad.dev/api/268325031342243843)](https://discord.com/users/268325031342243843)
 
-</p>
+</div>
 
-## Step 5: Programming (Bootloading)
+## Step 5: Programming (Flashing)
 So you have a fully finished board on the outside but there's nothing inside, yet. Now is the time to grab your ATmega2560 and connect it to your PC or Mac's USB port. You now need to make some connections between ATmega2560 and ATmega328. Follow the following table to do so. Refer back to the schematic to see where the PINs are located.
 
 <div align="center">
@@ -137,6 +138,7 @@ So you have a fully finished board on the outside but there's nothing inside, ye
 <p align="center">
   It should look something like this.
 </p>
+
 
 
 
