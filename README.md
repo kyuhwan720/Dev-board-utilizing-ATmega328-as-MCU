@@ -92,7 +92,7 @@ You can see which pins correspond to different types of ports on the schematic a
 As an example, here is my final product. Sorry it's a bit messy.
 
 <p align="center">
-  <img src="https://github.com/kyuhwan720/Making-ATmega328/blob/e368e088b65e29550cb897805fad50d6fbf02aca/finalproduct.png" height="500" width="500">
+  <img src="https://github.com/kyuhwan720/Making-ATmega328/blob/e368e088b65e29550cb897805fad50d6fbf02aca/finalproduct.png" height="750">
 </p>
 
 
