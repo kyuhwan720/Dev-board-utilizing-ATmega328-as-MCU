@@ -120,6 +120,6 @@ So you have a fully finished board on the outside but there's nothing inside, ye
 |Digital PIN 53| RESET (PIN 1) |
 
 It should look something like this
-![plot](/bootload.png)
+![plot](/bootload.png | width=100)
 
 
