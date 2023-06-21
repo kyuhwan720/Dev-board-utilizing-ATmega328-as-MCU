@@ -13,7 +13,7 @@ Before you begin, you should have some knowledge of [how to use a breadboard](ht
 
 ## Prerequisites / Materials
 You need these items in order to proceed with the construction process!
-There is going to be Amazon links to these materials.
+There will be Amazon links to obtain these materials.
 
 - [ ] 1 x [Breadboard](https://a.co/d/gcQUHnz)
 - [ ] 2 x [0.1 µF 50V Ceramic Capacitor]()
