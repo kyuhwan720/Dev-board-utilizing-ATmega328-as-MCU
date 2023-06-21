@@ -90,7 +90,11 @@ Here are some common types of ports found in microcontrollers:
 You can see which pins correspond to different types of ports on the schematic above. Now, place header pins anywhere on the breadboard/protoboard and connect the pins via wires. Now you are done with the construction and all there is left is programming the board to give it life!
 
 As an example, here is my final product. Sorry it's a bit messy.
-![plot](/finalproduct.png)
+
+<p align="center">
+  <img src="https://github.com/kyuhwan720/Making-ATmega328/blob/e368e088b65e29550cb897805fad50d6fbf02aca/finalproduct.png" height="500" width="500">
+</p>
+
 
 ## Step 4-1: Quick Q&A
 No, don't worry you are done with the construction process. I just wanted to have this moment to look back at some concerns you might've had during it. 
