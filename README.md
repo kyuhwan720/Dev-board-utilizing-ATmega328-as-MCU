@@ -7,10 +7,10 @@ Hello! In this tutorial, I will be teaching you how to construct a fully functio
 There will be **2** methods of this and I will be showing you both ways.
 One way is by constructing a circuit on breadboard and the other is by soldering components on to a protoboard.
 
-##Pre-Prerequisites
+## Pre-Prerequisites
 Before you begin, you should have some knowledge of [how to use a breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all) or [soldering](https://www.youtube.com/watch?v=oqV2xU1fee8).
 
-##Prerequisites for constructing on breadboard
+## Prerequisites for constructing on breadboard
 You need these items in order to proceed with the construction process!
 There is going to be Amazon links to these materials
 
