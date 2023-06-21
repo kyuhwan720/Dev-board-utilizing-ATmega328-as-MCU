@@ -11,6 +11,8 @@ Either methods will generate same or similar result so choose whichever one you 
 ## Pre-Prerequisites
 Before you begin, you should have some knowledge of [how to use a breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all) or [soldering](https://www.youtube.com/watch?v=oqV2xU1fee8) and reading schematics.
 
+This will be an in-depth guide so *theoretically* you don't need to know all these but I want this to be a tutorial where you could learn why and how things work instead of just running around with a finished microcontroller not knowing how different components inside actually works.
+
 ## Prerequisites / Materials
 You need these items in order to proceed with the construction process!
 There is going to be Amazon links to these materials.
