@@ -119,7 +119,8 @@ So you have a fully finished board on the outside but there's nothing inside, ye
 |Digital PIN 52| SCK (PIN 19)  |
 |Digital PIN 53| RESET (PIN 1) |
 
-It should look something like this
-![plot](/bootload.png | width=100)
+It should look something like this.
+![](https://github.com/kyuhwan720/Making-ATmega328/blob/e368e088b65e29550cb897805fad50d6fbf02aca/bootload.png) =250x250)
+
 
 
