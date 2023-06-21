@@ -31,6 +31,8 @@ If you are going the second route of *soldering* then get everything mentioned a
 - [ ] 1 x Protoboard
 - [ ] 1 x [Soldering Kit](https://www.amazon.com/Soldering-Interchangeable-Adjustable-Temperature-Enthusiast/dp/B087767KNW/ref=sr_1_6?keywords=soldering%2Bkit&qid=1687306680&sr=8-6&th=1) *This has all you need!*
 
+Once you have every box checked, you may proceed to the next steps.
+
 ## Introduction
 Phew, that was a long prerequisite :joy:. This will be an in-depth guide so *theoretically* you don't need to know all the things mentioned above in Pre-prerequisite but you should, it will be very handy.
 
