@@ -19,7 +19,7 @@ There will be Amazon links to obtain these materials.
 - [ ] 1 x 10 kΩ Resistor
 - [ ] 1 x Push Button
 - [ ] 23 x Header Pins
-- [ ] 1 x ATmega328 or ATmega328P
+- [ ] 1 x ATmega328
 - [ ] 1 x ATmega2560
 - [ ] 1 x USB-A to USB-B Cable
 - [ ] 1 x PC or Mac with following programs
@@ -37,8 +37,6 @@ Once you have every box checked, you may proceed to the next steps.
 Phew, that was a long prerequisite :joy:. This will be an in-depth guide so *theoretically* you don't need to know all the things mentioned above in Pre-prerequisite but you should, it will be very handy.
 
 So, why ATmega328? Well, I actually had to make this for a class and so I already know how to do everything and just wanted to pass down this knowledge. There is a full [article](https://www.electricaltechnology.org/2018/01/atmega-atmel-avr-microcontrollers.html) on what ATmega microcontrollers are capable of so you should read it ~~I didn't~~. It says on [ATmega328's Wikipedia](https://en.wikipedia.org/wiki/ATmega328) that "ATmega328 is commonly used in many projects and autonomous systems where a simple, low-powered, low-cost micro-controller is needed". But future BS aside, by being able to make and program a microcontroller, you will gain so much knowledge of how different components inside actually works. For example, you will be able to utilize its EEPROM or Electrically Erasable Programmable Read-Only Memory. EEPROM is often used to store configuration data for a microcontroller. This data could include things like the baud rate of the serial port, the IP address of the microcontroller, or the settings for a sensor. EEPROM is also sometimes used to store user data, such as a password or a list of contacts. See, you already learned something new about microcontrollers ~~hopefully~~.
-
-Also before I go any further, read this [article](https://www.hnhcart.com/blogs/microcontrollers/a-1#:~:text=DIFFERENCE%20BETWEEN%20ATMEGA328%2F328P,could%20be%20a%2060nm%20process.) on the difference between ATmega328 and 328P. They are essentially the same thing with minor tweaks so the construction process will be the same except programming part. **BE AWARE OF WHAT KIND OF MICROCONTROLLER YOU HAVE.**
 
 Enough chit-chat, let's get down to business now.
 
@@ -100,12 +98,19 @@ But this tutorial isn't to make a standalone microcontroller. As stated above, w
 
 For you Tl;dr people, you don't need a crystal oscillator at least for this tutorial. But you can add it if you eventually want to make a standalone microcontroller that has faster clock speed without using another Arduino board.
 
-If you have more questions, send me a DM on Discord
+Also before I go any further, read this [article](https://www.hnhcart.com/blogs/microcontrollers/a-1#:~:text=DIFFERENCE%20BETWEEN%20ATMEGA328%2F328P,could%20be%20a%2060nm%20process.) on the difference between ATmega328 and 328P. They are essentially the same thing with minor tweaks so the construction process will be the same except programming part. **BE AWARE OF WHAT KIND OF MICROCONTROLLER YOU HAVE.**
+
+If you have more questions, send me a DM on Discord!
 
 [![Discord Presence](https://lanyard.cnrad.dev/api/268325031342243843)](https://discord.com/users/268325031342243843)
 
-## Step 5: Programming (
+## Step 5: Programming (Bootloading)
+So you have a fully finished board on the outside but there's nothing inside, yet. Now is the time to grab your ATmega2560 and connect it to your PC or Mac's USB port. You now need to make some connections between ATmega2560 and ATmega328. Follow the following table to do so.
 
-
+| ATmega2560        | ATmega328           |
+| ------------- |:-------------:|
+| col 3 is      | right-aligned |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
 
 
