@@ -2,7 +2,7 @@
   <img src="https://media.giphy.com/media/mFDWuDppjQJjite6FS/giphy.gif" width="300"/>
 </div>
 
-# ATMega328 or ATMega328P Tutorial
+# Let's make a microcontroller!
 Hello! In this tutorial, I will be teaching you how to construct a fully functioning ATMega328 from scratch.
 There will be **2** methods of this and I will be showing you both ways.
 One way is by constructing a circuit on breadboard and the other is by soldering components on to a protoboard.
