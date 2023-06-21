@@ -110,7 +110,9 @@ Also before I go any further, read this [article](https://www.hnhcart.com/blogs/
 If you have more questions, send me a DM on Discord!
 
 <p align="center">
-[![Discord Presence](https://lanyard.cnrad.dev/api/268325031342243843)](https://discord.com/users/268325031342243843)
+  
+  [![Discord Presence](https://lanyard.cnrad.dev/api/268325031342243843)](https://discord.com/users/268325031342243843)
+
 </p>
 
 ## Step 5: Programming (Bootloading)
