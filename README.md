@@ -56,7 +56,10 @@ Looking at the schematic, I have labeled PIN 7 and 8 as VCC and GND because that
 
 ![plot](/pinmap.png)
 
-Connect these two pins via 0.1 µF Ceramic Capacitor then put two header pins after. Connect PIN 7 (VCC) to the power rail (+ Bus) and PIN 8 (GND) to the ground rail (- Bus).
+Connect these two pins via 0.1 µF Ceramic Capacitor then put two header pins after. Connect the header pins of PIN 7 (VCC) to the power rail (+ Bus) and PIN 8 (GND) to the ground rail (- Bus).
+
+This is how you will be able to power on the microcontroller. You may ask what VCC and GND is.
+VCC stands for **Voltage Common Collector** and is the supply voltage for the circuit. It is usually connected to the positive (+) terminal of the power supply and is used to provide power to the various components of the circuit. GND on the other hand is **Ground** and is a reference point for the circuit and is commonly used as a return path for current. It is usually connected to the negative (-) terminal of the power supply, and is considered to be at zero voltage potential.
 
 
 
