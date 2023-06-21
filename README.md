@@ -120,7 +120,7 @@ So you have a fully finished board on the outside but there's nothing inside, ye
 |Digital PIN 53| RESET (PIN 1) |
 
 It should look something like this.
-<img src="https://github.com/kyuhwan720/Making-ATmega328/blob/e368e088b65e29550cb897805fad50d6fbf02aca/bootload.png" width="300">
+<img src="https://github.com/kyuhwan720/Making-ATmega328/blob/e368e088b65e29550cb897805fad50d6fbf02aca/bootload.png" height="300">
 
 
 
