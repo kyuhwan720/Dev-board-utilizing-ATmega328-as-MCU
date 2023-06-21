@@ -16,7 +16,7 @@ There will be Amazon links to obtain these materials.
 
 - [ ] 1 x [Breadboard](https://a.co/d/gcQUHnz)
 - [ ] 1 x [0.1 µF Ceramic Capacitor]()
-- [ ] 1 x 10kΩ Resistor
+- [ ] 1 x 10 kΩ Resistor
 - [ ] 1 x Push Button
 - [ ] 23 x Header Pins
 - [ ] 1 x ATmega328 or ATmega328P
@@ -49,7 +49,7 @@ As you begin, notice how there is a half-circle on one side of the microcontroll
 
 Grab the microcontroller chip and place it anywhere on the breadboard or protoboard. If you are building on a breadboard, push the microcontroller pins to the holes of the breadboard until you can't push any further. If you are building on a protoboard, push the pins through the holes then solder all of them. Be careful to not bend any pins.
 
-Here is the schematic and pin diagram of ATmeag328. Feel free to come back to these whenever you're stuck or confused.
+Here is the schematic (drawn by my friend Sam) and pin diagram of ATmeag328. Feel free to come back to these whenever you're stuck or confused.
 
 ![plot](/schematic.jpg)
 ![plot](/pinmap.png)
@@ -69,6 +69,42 @@ As stated in the schematic, your PIN 1 (PC6) will be the reset switch. The ATmeg
 2. During the development and debugging process, a reset switch is particularly useful. It provides a quick and convenient way to reset the microcontroller and restart your program, allowing you to test different code sections or troubleshoot any issues you may encounter.
 
 3. In certain scenarios, your program may encounter errors or unexpected behavior that cause the microcontroller to become unresponsive or stuck. By incorporating a reset switch, you can easily reset the microcontroller to resolve such issues without the need for power cycling the entire circuit.
+
+Connect 10 kΩ Resistor to the power rail and ground rail. Place push button on the board connecting one leg to the ground rail and the other leg to the resistor.
+
+Now you have a reset switch.
+
+## Step 4: PORTS
+You are almost done now. Practically, you're already done but we will be putting header pins to the pins of the microcontroller to easily connect and disconnect cables to use different ports of the microcontroller. Microcontrollers typically have various types of ports that serve different purposes. 
+
+Here are some common types of ports found in microcontrollers:
+
+1. General-Purpose Input/Output (GPIO) Ports: These ports allow the microcontroller to interface with external devices by providing digital input or output. Each GPIO pin can be individually configured as an input or output pin, allowing the microcontroller to read sensor data or control actuators.
+
+2. Analog Input Ports: These ports are used to read analog signals from sensors or other analog devices. They usually have analog-to-digital converters (ADCs) that convert the analog voltage or current into a digital value that can be processed by the microcontroller.
+
+3. Serial Ports: Microcontrollers often have one or more serial ports, such as UART (Universal Asynchronous Receiver/Transmitter), SPI (Serial Peripheral Interface), or I2C (Inter-Integrated Circuit). These ports enable the microcontroller to communicate with other devices using serial communication protocols.
+
+4. Pulse Width Modulation (PWM) Ports: PWM ports generate digital signals with varying duty cycles. They are commonly used for controlling the speed of motors, brightness of LEDs, or generating analog-like signals.
+
+5. Interrupt Ports: Interrupt ports allow the microcontroller to respond to external events or signals in a timely manner. When an interrupt is triggered, the microcontroller interrupts its current task and executes an interrupt service routine (ISR) to handle the event.
+
+You can see which pins correspond to different types of ports on the schematic above. Now, place header pins anywhere on the breadboard/protoboard and connect the pins via wires. Now you are done with the construction and all there is left is programming the board to give it life!
+
+## Step 4-1: Quick Q&A
+No, don't worry you are done with the construction process. I just wanted to have this moment to look back at some concerns you might've had during it. 
+
+One question that many would ask is why I didn't include a crystal oscillator. Well, I was lazy. I know that ATmega328 has an internal oscillator that runs at a frequency of 8 MHz so I simply skipped this step of including an external one. If you require a more precise and stable clock signal, especially for applications that involve timekeeping or communication protocols, you should use an external crystal oscillator. 
+
+But this tutorial isn't to make a standalone microcontroller. As stated above, we will be needing an ATmeag2560 to use it as an In-system programmer (ISP). To use this ATmega328, you will need ATmega2560 to bootload and program the controller. So we are using the Atmega328 in an Arduino board, the Arduino Uno, for example, comes with a 16 MHz crystal oscillator by default. This allows you to take advantage of the more accurate timing capabilities of the external crystal oscillator. To learn more about ISP, here is the [Wikipedia](https://en.wikipedia.org/wiki/In-system_programming) page.
+
+For you Tl;dr people, you don't need a crystal oscillator at least for this tutorial. But you can add it if you eventually want to make a standalone microcontroller that has faster clock speed without using another Arduino board.
+
+If you have more questions, send me a DM on Discord
+[![Discord Presence](https://lanyard.cnrad.dev/api/:id)](https://discord.com/users/:268325031342243843)
+
+## Step 5: Programming (
+
 
 
 
