@@ -44,9 +44,7 @@ Enough chit-chat, let's get down to business now.
 ## Step 1: The Setup
 To begin, notice the notch that indicates the direction of the chip — and the dot that indicates Pin 1. All pins that follow suit are in regular numerical order.
 
-
-
-Grab the microcontroller chip and place it anywhere on the breadboard or protoboard. If you are building on a breadboard, push the microcontroller pins to the holes of the breadboard until you can't push any further. If you are building on a protoboard, push the pins through the holes then solder all of them.
+Grab the microcontroller chip and place it anywhere on the breadboard or protoboard. If you are building on a breadboard, push the microcontroller pins to the holes of the breadboard until you can't push any further. If you are building on a protoboard, push the pins through the holes then solder all of them. Be careful to not bend any pins.
 
 
 
