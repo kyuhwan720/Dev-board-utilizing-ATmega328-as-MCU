@@ -72,7 +72,7 @@ Connect 10 kΩ Resistor to the power rail and ground rail. Place push button on 
 
 Now you have a reset switch.
 
-## Step 4: PORTS
+## Step 4: PORTs
 You are almost done now. Practically, you're already done but we will be putting header pins to the pins of the microcontroller to easily connect and disconnect cables to use different ports of the microcontroller. Microcontrollers typically have various types of ports that serve different purposes. 
 
 Here are some common types of ports found in microcontrollers:
