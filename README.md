@@ -22,8 +22,9 @@ There will be Amazon links to obtain these materials.
 - [ ] 1 x ATmega328
 - [ ] 1 x ATmega2560
 - [ ] 1 x USB-A to USB-B Cable
-- [ ] 1 x PC or Mac with following program
-  - Purdue Arduino MEGA Uploader <- Download the folder with the same name in this repository
+- [ ] 1 x PC or Mac with following programs
+  - bootload_flash.zip <- Download the folder with the same name in this repository
+  - Command Prompt or Terminal
 
 If you are going the second route of *soldering* then get everything mentioned above **except** the breadboard and instead buy these...
 
@@ -143,7 +144,7 @@ So you have a fully finished board on the outside but there's nothing inside, ye
   It should look something like this.
 </p>
 
-
+Now that you have everything connected properly, it's time to flash! No, please keep your pants on sir. Flashing means to write a new program to the microcontroller's flash memory. This can be done using the avrdude command-line tool. 
 
 
 
