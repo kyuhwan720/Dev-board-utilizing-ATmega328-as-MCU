@@ -132,7 +132,7 @@ So you have a fully finished board on the outside but there's nothing inside, ye
 </div>
 
 <p align="center">
-  <img src="https://github.com/kyuhwan720/Making-ATmega328/blob/e368e088b65e29550cb897805fad50d6fbf02aca/bootload.png" height="750">
+  <img src="https://github.com/kyuhwan720/Making-ATmega328/blob/e368e088b65e29550cb897805fad50d6fbf02aca/bootload.png" height="650">
 </p>
 
 <p align="center">
