@@ -22,10 +22,12 @@ There will be Amazon links to obtain these materials.
 - [ ] 1 x AVR ICSP Programming Adaptor
 - [ ] 1 x ATmega328 or ATmega328
 - [ ] 1 x Any color 5mm LED
-- [ ] 2 x 330Ω Resistors
+- [ ] 2 x 330Ω Resistors (Any resistor above 200Ω is fine)
 - [ ] 1 x ATmega2560
 - [ ] 1 x USB-A to USB-B Cable
-- [ ] 1 x PC or Mac that has [Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
+- [ ] 1 x PC or Mac with following programs
+ - [Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
+ - Purdue Arduino MEGA Uploader <- Download the folder with the same name in this repository
 
 If you are going the second route of *soldering* then get everything mentioned above **except** the breadboard and instead buy these...
 
@@ -38,3 +40,7 @@ Phew, that was a long prerequisite :joy:. This will be an in-depth guide so *the
 So, why ATmega328? Well, I actually had to make this for a class and so I already know how to do everything and just wanted to pass down this knowledge. There is a full [article](https://www.electricaltechnology.org/2018/01/atmega-atmel-avr-microcontrollers.html) on what ATmega microcontrollers are capable of so you should read it ~~I didn't~~. It says on [ATmega328's Wikipedia](https://en.wikipedia.org/wiki/ATmega328) that "ATmega328 is commonly used in many projects and autonomous systems where a simple, low-powered, low-cost micro-controller is needed". But future BS aside, by being able to make and program a microcontroller, you will gain so much knowledge of how different components inside actually works. For example, you will be able to utilize its EEPROM or Electrically Erasable Programmable Read-Only Memory. EEPROM is often used to store configuration data for a microcontroller. This data could include things like the baud rate of the serial port, the IP address of the microcontroller, or the settings for a sensor. EEPROM is also sometimes used to store user data, such as a password or a list of contacts. See, you already learned something new about microcontrollers ~~hopefully~~.
 
 Enough chit-chat, let's get down to business now.
+
+## Step 1: The Setup
+
+
