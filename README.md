@@ -47,16 +47,13 @@ As you begin, notice how there is a half-circle on one side of the microcontroll
 
 Grab the microcontroller chip and place it anywhere on the breadboard or protoboard. If you are building on a breadboard, push the microcontroller pins to the holes of the breadboard until you can't push any further. If you are building on a protoboard, push the pins through the holes then solder all of them. Be careful to not bend any pins.
 
-Here is the schematic. Feel free to come back to this schematic whenever you're confused.
+Here is the schematic and pin diagram of ATmeag328. Feel free to come back to these whenever you're stuck or confused.
 
 ![plot](/schematic.jpg)
-
-## Step 2: Power
-Looking at the schematic, I have labeled PIN 7 and 8 as VCC and GND because that is the VCC and GND of ATmega328 microcontroller. 
-
 ![plot](/pinmap.png)
 
-Connect these two pins via 0.1 µF Ceramic Capacitor then put two header pins after. Connect the header pins of PIN 7 (VCC) to the power rail (+ Bus) and PIN 8 (GND) to the ground rail (- Bus).
+## Step 2: Power
+Connect PIN 7 and 8 with 0.1 µF Ceramic Capacitor then put two header pins after. Connect the header pins of PIN 7 (VCC) to the power rail (+ Bus) and PIN 8 (GND) to the ground rail (- Bus).
 
 This is how you will be able to power on the microcontroller.
 
