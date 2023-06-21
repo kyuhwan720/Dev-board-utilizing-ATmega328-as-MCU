@@ -42,7 +42,9 @@ Enough chit-chat, let's get down to business now.
 ## Step 1: The Setup
 As you begin, notice how there is a half-circle on one side of the microcontroller and you see the small circle next to it? The pin adjacent to the circle is PIN 1. All pins that follow suit are in numerical order (so PIN 2, 3, and so on). 
 
-![plot](/chip.jpg)
+<div align="center">
+  ![plot](/chip.jpg)
+</div>
 
 Grab the microcontroller chip and place it anywhere on the breadboard or protoboard. If you are building on a breadboard, push the microcontroller pins to the holes of the breadboard until you can't push any further. If you are building on a protoboard, push the pins through the holes then solder all of them. Be careful to not bend any pins.
 
