@@ -180,3 +180,5 @@ You can always change or create a new .c file in your preferred IDE then extract
 #include <util/delay.h> // This contains the definition of delay function
 ```
 
+## Conclusion
+Thank you for taking your time to read this guide. It's my first ever repository on GitHub so it lacks in a lot of areas but I hope it was helpful for your need. Like I mentioned above, DM me on Discord if you have any further questions or send me how your final product looks like. It better be better than mine 😆.
