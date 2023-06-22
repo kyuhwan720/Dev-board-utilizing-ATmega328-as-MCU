@@ -147,7 +147,7 @@ So you have a fully finished board on the outside but there's nothing inside, ye
 Now that you have everything connected properly, it's time to flash! No, please keep your pants on sir. Flashing means to write a new program to the microcontroller's flash memory. This can be done using the avrdude command-line tool. Unzip the bootload_flash.zip file. Once you did that, follow the video guide to open the command prompt that only pertains to this folder so you don't have to type C:\Users\username\folder\bootload_flash\... in the command prompt all the time to do anything.
 
 <div id="header" align="center">
-  <img src="https://im4.ezgif.com/tmp/ezgif-4-156a8e9837.gif" width="500"/>
+  <img src="https://im4.ezgif.com/tmp/ezgif-4-156a8e9837.gif"/>
 </div>
 
 
