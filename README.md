@@ -167,7 +167,7 @@ avrdude -c arduino -P com3 -p ATMEGA328P -b 19200 -U flash:r:sdint.hex:r
 ```
 
 ## Step 5: Programming (Flashing programs)
-The bootload_flash folder contains .c file and .hex files for convenience. test.hex file is to test the IO PORTs. PORTC is input and PORTD is output. blinky.hex is to test PWM. For this, ADC0 is input and OC1A is output. You can simply upload the hex files on to the microcontroller by 
+The bootload_flash folder contains .c file and .hex files for convenience. test.hex file is to test the IO PORTs. PORTC is input and PORTD is output. blinky.hex is to test PWM. For this, ADC0 is input and OC1A is output. You can simply upload the hex files on to the microcontroller by...
 
 ```
 avrdude -c arduino -P com3 -p ATMEGA328P -b 19200 -U flash:w:[filename].hex:i
