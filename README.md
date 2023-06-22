@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/mFDWuDppjQJjite6FS/giphy.gif"/>
+  <img src="https://media.giphy.com/media/mFDWuDppjQJjite6FS/giphy.gif" width="500"/>
 </div>
 
 # Let's make a microcontroller!
