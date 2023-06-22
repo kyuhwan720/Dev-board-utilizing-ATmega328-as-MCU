@@ -160,4 +160,8 @@ Finally, go to the command prompt that is opened up. Type the following code and
 avrdude -c arduino -P com3 -p ATMEGA328 -b 19200 -U flash:r:sdint.hex:r
 ```
 
+A little side note: If you are using ATmega328P for this build, just change the code to 
 
+```
+avrdude -c arduino -P com3 -p ATMEGA328P -b 19200 -U flash:r:sdint.hex:r
+```
