@@ -150,9 +150,11 @@ So you have a fully finished board on the outside but there's nothing inside, ye
 
 Now that you have everything connected properly, it's time to flash! No, please keep your pants on sir. Flashing means to write a new program to the microcontroller's flash memory. This can be done using the avrdude command-line tool. Unzip the bootload_flash.zip file. Once you did that, follow the GIF to open the command prompt that only pertains to this folder so you don't have to type C:\Users\username\folder\bootload_flash\... in the command prompt all the time to do anything.
 
-Before we continue, we need to figure out which COM port our ATmega2560 is connected to. To check, simply open device manager and check COM port section.
+Before we continue, we need to figure out which COM port our ATmega2560 is connected to. To check, simply open device manager and check COM port section. In this example, we can see that the ATmega is connected to COM3.
 
 ![com](https://github.com/kyuhwan720/Making-ATmega328/assets/133463914/855b8ed2-c8ae-467e-813a-d6e7c5a18efc)
+
+Finally, go to the command prompt that is opened up. Type the following code and *voilà* your microcontroller is fully finished!
 
 ```
 avrdude -c arduino -P com3 -p ATMEGA328 -b 19200 -U flash:r:sdint.hex:r
