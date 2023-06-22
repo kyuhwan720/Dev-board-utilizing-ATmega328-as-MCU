@@ -2,8 +2,8 @@
   <img src="https://media.giphy.com/media/mFDWuDppjQJjite6FS/giphy.gif" width="500"/>
 </div>
 
-# Let's make a microcontroller!
-Hello! In this tutorial, I will be teaching you how to construct a fully functioning ATmega328 from scratch.
+# Hello!
+In this tutorial, I will be teaching you how to construct a fully functioning dev-board utilizing ATmega328 as its microcontroller from scratch.
 There are two methods of this which is by constructing a circuit on breadboard or by soldering components on to a protoboard.
 Either methods will generate same or similar result so choose whichever one you prefer.
 
