@@ -121,7 +121,7 @@ If you have more questions, send me a DM on Discord!
 
 </div>
 
-## Step 5: Programming (Flashing)
+## Step 5: Programming (Bootload)
 So you have a fully finished board on the outside but there's nothing inside, yet. Now is the time to grab your ATmega2560 and connect it to your PC or Mac's USB port. You now need to make some connections between ATmega2560 and ATmega328. Follow the following table to do so. Refer back to the schematic to see where the PINs are located.
 
 <div align="center">
@@ -165,3 +165,18 @@ A little side note: If you are using ATmega328P for this build, just change the 
 ```
 avrdude -c arduino -P com3 -p ATMEGA328P -b 19200 -U flash:r:sdint.hex:r
 ```
+
+## Step 5: Programming (Flashing programs)
+The bootload_flash folder contains .c file and .hex files for convenience. test.hex file is to test the IO PORTs. PORTC is input and PORTD is output. blinky.hex is to test PWM. For this, ADC0 is input and OC1A is output. You can simply upload the hex files on to the microcontroller by 
+
+```
+avrdude -c arduino -P com3 -p ATMEGA328P -b 19200 -U flash:w:[filename].hex:i
+```
+
+You can always change or create a new .c file in your preferred IDE then extract .hex file from it to program your board however you like it. Just make sure to include these two lines at the top of .c file.
+
+```
+#include <avr/io.h> // This contains the definitions of the terms used
+#include <util/delay.h> // This contains the definition of delay function
+```
+
