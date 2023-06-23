@@ -46,7 +46,7 @@ As you begin, notice how there is a half-circle on one side of the microcontroll
 
 <div align="center">
   
-  ![plot](/chip.jpg)
+  ![plot](/Photos/chip.jpg)
 
 </div>
 
@@ -54,8 +54,8 @@ Grab the microcontroller chip and place it anywhere on the breadboard or protobo
 
 Here is the schematic (drawn by my friend Sam) and pin diagram of ATmeag328. Feel free to come back to these whenever you're stuck or confused.
 
-![plot](/schematic.jpg)
-![plot](/pinmap.png)
+![plot](/Photos/schematic.jpg)
+![plot](/Photos/pinmap.png)
 
 ## Step 2: Power
 Connect PIN 7 and 8 with 0.1 µF Ceramic Capacitor then put two header pins after. Connect the header pins of PIN 7 (VCC) to the power rail (+ Bus) and PIN 8 (GND) to the ground rail (- Bus).
@@ -96,9 +96,11 @@ You can see which pins correspond to different types of ports on the schematic a
 
 As an example, here is my final product. Sorry it's a bit messy.
 
-<p align="center">
-  <img src="https://github.com/kyuhwan720/Making-ATmega328/blob/e368e088b65e29550cb897805fad50d6fbf02aca/finalproduct.png" height="750">
-</p>
+<div align="center">
+  
+  ![plot](/Photos/finalproduct.png)
+
+</div>
 
 
 ## Step 4-1: Quick Q&A
@@ -138,11 +140,16 @@ So you have a fully finished board on the outside but there's nothing inside, ye
 
 </div>
 
+<div id="header" align="center">
+  
+  ![plot](/Photos/bootload.png)
+
+</div>
+
 <p align="center">
-  <img src="https://github.com/kyuhwan720/Making-ATmega328/blob/e368e088b65e29550cb897805fad50d6fbf02aca/bootload.png" height="650">
-</p>
-<p align="center">
+  
   It should look something like this.
+
 </p>
 
 <div id="header" align="center">
