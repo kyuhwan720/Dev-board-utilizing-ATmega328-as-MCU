@@ -154,7 +154,7 @@ So you have a fully finished board on the outside but there's nothing inside, ye
 
 <div id="header" align="center">
   
-  ![plot](/flashcmd.gif)
+  ![plot](/Photos/flashcmd.gif)
 
 </div>
 
