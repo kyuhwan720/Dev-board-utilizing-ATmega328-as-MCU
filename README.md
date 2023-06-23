@@ -146,7 +146,9 @@ So you have a fully finished board on the outside but there's nothing inside, ye
 </p>
 
 <div id="header" align="center">
-  ![plot](/pinmap.png)
+  
+  ![plot](/flashcmd.gif)
+
 </div>
 
 Now that you have everything connected properly, it's time to flash! No, please keep your pants on sir. Flashing means to write a new program to the microcontroller's flash memory. This can be done using the avrdude command-line tool. Create a folder with avrdude and everything from 'Bootload_and_Flash' folder. Once you did that, follow the GIF to open the command prompt that only pertains to this folder so you don't have to type 
