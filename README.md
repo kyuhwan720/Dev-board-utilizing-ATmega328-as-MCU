@@ -20,10 +20,11 @@ There will be Amazon links to obtain these materials.
 - [ ] 1 x Push Button
 - [ ] 23 x Header Pins
 - [ ] 1 x ATmega328
-- [ ] 1 x ATmega2560
+- [ ] 1 x ATmega2560 or Arduino Uno
 - [ ] 1 x USB-A to USB-B Cable
 - [ ] 1 x PC or Mac with following programs
-  - bootload_flash <- Download the .zip file with the same name in this repository then unzip it.
+  - bootload_flash <- Download the folder from this repository.
+  - [avrdude](https://github.com/avrdudes/avrdude)
   - Command Prompt or Terminal
 
 If you are going the second route of *soldering* then get everything mentioned above **except** the breadboard and instead buy these...
@@ -145,10 +146,14 @@ So you have a fully finished board on the outside but there's nothing inside, ye
 </p>
 
 <div id="header" align="center">
-  <img src="https://im4.ezgif.com/tmp/ezgif-4-156a8e9837.gif"/>
+  ![plot](/pinmap.png)
 </div>
 
-Now that you have everything connected properly, it's time to flash! No, please keep your pants on sir. Flashing means to write a new program to the microcontroller's flash memory. This can be done using the avrdude command-line tool. Unzip the bootload_flash.zip file. Once you did that, follow the GIF to open the command prompt that only pertains to this folder so you don't have to type C:\Users\username\folder\bootload_flash\... in the command prompt all the time to do anything.
+Now that you have everything connected properly, it's time to flash! No, please keep your pants on sir. Flashing means to write a new program to the microcontroller's flash memory. This can be done using the avrdude command-line tool. Create a folder with avrdude and everything from 'Bootload_and_Flash' folder. Once you did that, follow the GIF to open the command prompt that only pertains to this folder so you don't have to type 
+```
+C:\Users\username\folder\Bootload_and_Flash\...
+```
+in the command prompt everytime to run a script.
 
 Before we continue, we need to figure out which COM port our ATmega2560 is connected to. To check, simply open device manager and check COM port section. In this example, we can see that the ATmega is connected to COM3.
 
@@ -167,7 +172,7 @@ avrdude -c arduino -P com3 -p ATMEGA328P -b 19200 -U flash:r:sdint.hex:r
 ```
 
 ## Step 5: Programming (Flashing programs)
-The bootload_flash folder contains .c file and .hex files for convenience. test.hex file is to test the IO PORTs. PORTC is input and PORTD is output. blinky.hex is to test PWM. For this, ADC0 is input and OC1A is output. You can simply upload the hex files on to the microcontroller by...
+The 'Bootload_and_Flash' folder contains .c file and .hex files for convenience. test.hex file is to test the IO PORTs. PORTC is input and PORTD is output. blinky.hex is to test PWM. For this, ADC0 is input and OC1A is output. You can simply upload the hex files on to the microcontroller by...
 
 ```
 avrdude -c arduino -P com3 -p ATMEGA328P -b 19200 -U flash:w:[filename].hex:i
